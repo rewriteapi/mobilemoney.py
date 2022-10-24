@@ -2,6 +2,7 @@ mobilemoney.py
 ==========
 
 A modern, easy to use, feature-rich, and async ready API wrapper for MobileMoney written in Python.
+Use method and function simplified for the MOMO OPEN API
 
 Key Features
 -------------

@@ -32,7 +32,7 @@ setup(name='mobilemoney.py',
       description='A Python wrapper for the MoMo Open API',
       include_package_data=True,
       install_requires=requirements,
-      keywords=['python', 'mobilemoney', 'MTN Money', 'rewriteapi', 'MTN API'],
+      keywords=['python', 'mobilemoney', 'MTN Money', 'rewriteapi', 'MTN API', 'mobilemoney-py'],
       python_requires='>=3.8.0',
       classifiers=[
         'Development Status :: 5 - Production/Stable',

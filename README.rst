@@ -2,7 +2,7 @@ mobilemoney.py
 ==========
 
 A modern, easy to use, feature-rich, and async ready API wrapper for MobileMoney written in Python.
-Use method and function simplified for the MOMO OPEN API
+Use method and function simplified for the MTN MOMO API
 
 Key Features
 -------------
@@ -123,6 +123,6 @@ Quick Example
 Links
 ------
 
-- `Documentation <https://mobilemoneypy.rewriteapi.cm>`_
-- `Official Discord Server <https://discord.gg/>`_
+- `Documentation <https://momopy.rewriteapi.cm>`_
+- `Official Discord Server <https://discord.gg/8hS3tvkfrF>`_
 - `Website <https://rewriteapi.cm>`_

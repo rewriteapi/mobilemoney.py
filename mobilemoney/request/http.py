@@ -55,13 +55,13 @@ class HTTPClient:
         if not self.isLogged:
             self.__session = aiohttp.ClientSession()
             self.isLogged = True
-            print('http connect succesfully')
+            
             
     async def logout(self)-> None:
         if self.isLogged:
             await self.__session.close()
             self.isLogged = False 
-            print('http close sucessfully')
+            
 
     def is_sandbox(self)-> None:
         """Function to turn the library from live to sandbox environment
@@ -89,11 +89,7 @@ class HTTPClient:
 
         #creating headers and adding our user agent for potential statistic or analyse later
         #hope MTN store it lmao
-        headers: Dict[str, str] = {
-            'User-Agent': self.user_agent
-        }
-
-       
+        route.headers['User-Agent'] = self.user_agent
 
         #response: Optional[aiohttp.ClientResponse] = None
         
